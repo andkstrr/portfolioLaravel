@@ -151,7 +151,7 @@
           data-aos-duration="3000"
           data-aos-delay="300"
           data-aos-offset="0">
-            <a download="" href="assets\" class="button button--flex">
+            <a download="" href="assets\cv.jpg" class="button button--flex">
               Download CV<i class="fas fa-download button__icon"></i>
             </a>
           </div>

@@ -27,7 +27,7 @@
           <div class="portfolio__data">
             <h3 class="portfolio__title">Pom Shell</h3>
             <p class="portfolio__description">
-              Proyek ini menggunakan prinsip pemrograman berorientasi objek (OOP). Formulir menyediakan beberapa opsi tipe bensin, seperti Shell Regular, Shell V-Power, dan Shell Diesel, dengan harga per liter yang berbeda. Proyek ini meningkatkan keterampilan pemrograman PHP dan memberikan solusi praktis untuk perhitungan biaya bahan bakar.
+              This project uses object-oriented programming (OOP) principles. The form provides several gasoline type options, such as Shell Regular, Shell V-Power, and Shell Diesel, with different prices per liter. This project enhances PHP programming skills and provides a practical solution for fuel cost calculation.
             </p>
             <a href="https://github.com/andkstrr/pomShell" class="button button--flex button--small portfolio__button">
               GitHub Repository
@@ -46,7 +46,7 @@
           <div class="portfolio__data">
             <h3 class="portfolio__title">Rental Motor</h3>
             <p class="portfolio__description">
-              Proyek OOP PHP ini bertujuan untuk membuat sistem manajemen rental motor yang mengelola data penyewa, baik member maupun non-member, serta menyediakan opsi motor dan harga sewanya. Proyek ini meningkatkan keterampilan PHP dan menyediakan solusi praktis untuk manajemen rental motor.
+              This PHP OOP project aims to create a motorcycle rental management system that manages renter data, both members and non-members, and provides motorcycle options and rental prices. This project enhances PHP skills and provides a practical solution for motorcycle rental management.
             </p>
             <a href="https://github.com/andkstrr/rentalMotor" class="button button--flex button--small portfolio__button">
               GitHub Repository
@@ -65,7 +65,7 @@
           <div class="portfolio__data">
             <h3 class="portfolio__title">Data Siswa</h3>
             <p class="portfolio__description">
-              Spotify Clone is a web app developed using HTML, CSS, and JavaScript. It recreates Spotify's interface and features, allowing users to browse, search, and play songs, create playlists, and discover new music. Responsive design ensures a seamless experience on any device. Contributions are welcome!
+              This Student Data project has features to add, delete, edit, and print data that has been inputted. This project enhances Session PHP skills and provides a practical solution for data processing.
             </p>
             <a href="https://github.com/andkstrr/dataSiswa" class="button button--flex button--small portfolio__button">
               GitHub Repository
@@ -84,7 +84,7 @@
           <div class="portfolio__data">
             <h3 class="portfolio__title">Struk Kasir</h3>
             <p class="portfolio__description">
-              This language translator web app is a user-friendly tool built with HTML, CSS, and JavaScript. It leverages Google Translate API to seamlessly translate text between multiple languages. The app features a simple interface, ensuring smooth performance across devices.
+              This Cashier Receipt project has features to add, delete, edit, and print receipts for goods that have been inputted. This project enhances Session PHP skills and provides a practical solution for cashier data processing.
             </p>
             <a href="https://github.com/andkstrr/strukKasir" class="button button--flex button--small portfolio__button">
               GitHub Repository
@@ -103,7 +103,7 @@
           <div class="portfolio__data">
             <h3 class="portfolio__title">Peminjaman Buku</h3>
             <p class="portfolio__description">
-              Sorting Visualizer is a Java-based project that allows users to visualize various sorting algorithms in action using a Graphical User Interface (GUI). It provides an interactive and educational way to understand how different sorting algorithms work by visually demonstrating their step-by-step sorting process.
+              This Book Loan project has features to add, delete, and print the inputted book data. This project enhances Session PHP skills and provides a practical solution for data processing.
             </p>
             <a href="https://github.com/andkstrr/perpusOnline" class="button button--flex button--small portfolio__button">
               GitHub Repository
