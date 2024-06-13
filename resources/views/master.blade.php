@@ -7,6 +7,7 @@
     <title>Portfolio | Andika Satrio N.</title>
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="assets/css/newcss.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
     <link
         rel="stylesheet"
         href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
@@ -121,6 +122,10 @@
 
 <script type="text/javascript" src="assets/swiper-bundle.min.js"></script>
 <script src="https://kit.fontawesome.com/2205d59d52.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="assets/ptj.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html> 
