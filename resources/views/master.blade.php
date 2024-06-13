@@ -8,12 +8,8 @@
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="assets/css/newcss.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
-    <link
-        rel="stylesheet"
-        href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
-    />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
 </head>
-
 <body oncontextmenu="return false">
 
 <!--========================= Header =====================-->
@@ -127,5 +123,36 @@
 <script>
     AOS.init();
 </script>
+<script>
+
+/*==================== DARK LIGHT THEME ====================*/
+const themeButton = document.getElementById("theme-button");
+const darkTheme = "dark-theme";
+const iconTheme = "uil-sun";
+
+const selectedTheme = localStorage.getItem("selected-theme");
+const selectedIcon = localStorage.getItem("selected-icon");
+
+const getCurrentTheme = () =>
+  document.body.classList.contains(darkTheme) ? "dark" : "light";
+const getCurrentIcon = () =>
+  themeButton.classList.contains(iconTheme) ? "uil-moon" : "uil-sun";
+
+if (selectedTheme) {
+  document.body.classList[selectedTheme === "dark" ? "add" : "remove"](darkTheme);
+  themeButton.classList[selectedIcon === "uil-moon" ? "add" : "remove"](iconTheme);
+} else {
+  document.body.classList.add(darkTheme);
+  themeButton.classList.add(iconTheme);
+}
+
+themeButton.addEventListener("click", () => {
+  document.body.classList.toggle(darkTheme);
+  themeButton.classList.toggle(iconTheme);
+  localStorage.setItem("selected-theme", getCurrentTheme());
+  localStorage.setItem("selected-icon", getCurrentIcon());
+});
+
+</script>
 </body>
-</html> 
+</html>
