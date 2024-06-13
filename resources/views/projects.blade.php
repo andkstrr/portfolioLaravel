@@ -127,10 +127,12 @@
       <div class="swiper-pagination"></div>
     </div>
   </section>
+  <script type="text/javascript" src="{{ asset('assets/swiper-bundle.min.js') }}"></script>
+    <script src="https://kit.fontawesome.com/2205d59d52.js" crossorigin="anonymous"></script>
+    <script src="{{ asset('assets/ptj.js') }}"></script>
+</body>
+</html>
 @endsection
 
-<!-- Scripts -->
-<script type="text/javascript" src="{{ asset('assets/js/swiper-bundle.min.js') }}"></script>
-<script src="https://kit.fontawesome.com/2205d59d52.js" crossorigin="anonymous"></script>
-<script src="{{ asset('assets/js/ptj.js') }}"></script>
+
 
