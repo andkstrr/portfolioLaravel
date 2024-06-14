@@ -7,7 +7,7 @@
     <title>Portfolio | Andika Satrio N.</title>
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="assets/css/newcss.css" />
-    <link rel="website icon" href="assets/img/icon.png">
+    <link rel="website icon" href="assets/img/icon.png"> 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
 </head>
