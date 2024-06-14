@@ -10,6 +10,7 @@
     <title>Portfolio | Andika Satrio N.</title>
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="assets/css/newcss.css" />
+    <link rel="website icon" href="{{ asset('assets/img/icon.png') }}">
     <link
         rel="stylesheet"
         href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
