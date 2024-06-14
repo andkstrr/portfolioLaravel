@@ -11,17 +11,20 @@
   <link rel="stylesheet" href="{{ asset('assets/css/swiper-bundle.min.css') }}" />
   <link rel="stylesheet" href="{{ asset('assets/css/newcss.css') }}" />
   <link rel="website icon" href="{{ asset('assets/img/icon.png') }}">
+  <link href="{{ asset('https://unpkg.com/aos@2.3.1/dist/aos.css') }}" rel="stylesheet"> 
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
 </head>
 <body oncontextmenu="return false">
   <!--=================== Services ====================-->
   <section class="services section" id="services">
-    <h2 class="section__title" style="margin-top: 50px;">Services</h2>
-    <span class="section__subtitle" style="margin-bottom: 70px;">What I offer</span>
+    <h2 class="section__title" style="margin-top: 50px;" data-aos="fade-up"
+    data-aos-duration="2000">Services</h2>
+    <span class="section__subtitle" style="margin-bottom: 70px;" data-aos="fade-up"
+    data-aos-duration="2500" data-aos-delay="50">What I offer</span>
 
     <div class="services__container container grid">
         <!-- ----------------- services 1 ---------------- -->
-        <div class="services__content">
+        <div class="services__content" data-aos="fade-up" data-aos-duration="2500" data-aos-delay="500">
             <div>
                 <i class="uil uil-web-grid services__icon"></i>
                 <h3 class="services__title">Ui/Ux <br> Designer</h3>
@@ -31,7 +34,7 @@
                 </span>
                 <div class="services__modal">
                     <div class="services__modal-content">
-                        <h4 class="service__modal-title">Ui/Ux <br> Designer</h4>
+                        <h4 class="service__modal-title" style="margin-bottom: 10px;">Ui/Ux <br> Designer</h4>
                         <i class="uil uil-times services__modal-close"></i>
                         <ul class="services__modal-services grid">
                             <li class="services__modal-service">
@@ -61,7 +64,7 @@
         </div>
 
 
-        <div class="services__content">
+        <div class="services__content" data-aos="fade-up" data-aos-duration="2500" data-aos-delay="750">
           <div>
               <i class="uil uil-arrow services__icon"></i>
               <h3 class="services__title">Frontend <br> Developer</h3>
@@ -71,7 +74,7 @@
               </span>
               <div class="services__modal">
                   <div class="services__modal-content">
-                      <h4 class="service__modal-title">Ui/Ux <br> Designer</h4>
+                      <h4 class="service__modal-title" style="margin-bottom: 10px;">Frontend <br> Developer</h4>
                       <i class="uil uil-times services__modal-close"></i>
                       <ul class="services__modal-services grid">
                           <li class="services__modal-service">
@@ -102,7 +105,7 @@
 
 
 
-      <div class="services__content">
+      <div class="services__content" data-aos="fade-up" data-aos-duration="2500" data-aos-delay="1000">
         <div>
             <i class="uil uil-edit-alt services__icon"></i>
             <h3 class="services__title">Data <br> Science</h3>
@@ -112,7 +115,7 @@
             </span>
             <div class="services__modal">
                 <div class="services__modal-content">
-                    <h4 class="service__modal-title">Ui/Ux <br> Designer</h4>
+                    <h4 class="service__modal-title" style="margin-bottom: 10px;">Data <br> Science</h4>
                     <i class="uil uil-times services__modal-close"></i>
                     <ul class="services__modal-services grid">
                         <li class="services__modal-service">
@@ -146,25 +149,35 @@
 
   <!--=================== Portfolio ===================-->
   <section class="portfolio section" id="portfolio">
-    <h2 class="section__title">Projects</h2>
-    <span class="section__subtitle" style="margin-bottom: 50px">Most recent work</span>
+    <h2 class="section__title" data-aos="fade-up"
+    data-aos-duration="2500">Projects</h2>
+    <span class="section__subtitle" style="margin-bottom: 50px" data-aos="fade-up"
+    data-aos-duration="3000">Most recent work</span>
 
-    <div class="portfolio__container container swiper-container">
+    <div class="portfolio__container container swiper-container" >
       <div class="swiper-wrapper">
         <!-- ------------------------portfolio 1-------------------- -->
         <div class="portfolio__content grid swiper-slide">
-          <img src="{{ asset('assets/img/portfolio1.png') }}" class="portfolio__img" />
+          <img src="{{ asset('assets/img/portfolio1.png') }}" class="portfolio__img" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="900""/>
 
           <div class="portfolio__data">
-            <h3 class="portfolio__title">Pom Shell</h3>
-            <p class="portfolio__description">
+            <h3 class="portfolio__title" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="1200">Pom Shell</h3>
+            <p class="portfolio__description" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="1400">
               This project uses object-oriented programming (OOP) principles. The form provides several gasoline type options, such as Shell Regular, Shell V-Power, and Shell Diesel, with different prices per liter. This project enhances PHP programming skills and provides a practical solution for fuel cost calculation.
             </p>
-            <a href="https://github.com/andkstrr/pomShell" class="button button--flex button--small portfolio__button">
+            <a href="https://github.com/andkstrr/pomShell" class="button button--flex button--small portfolio__button" data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-duration="3000"
+            data-aos-delay="1950"
+            data-aos-offset="0">
               GitHub Repository
               <i class="uil uil-external-link-alt button__icon"></i>
             </a>
-            <a href="http://atstrrandk.rf.gd/pomShell" target="__blank" class="button button--flex button--small portfolio__button">
+            <a href="http://atstrrandk.rf.gd/pomShell" target="__blank" class="button button--flex button--small portfolio__button" data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-duration="3000"
+            data-aos-delay="1950"
+            data-aos-offset="0">>
               See Live
               <i class="uil uil-external-link-alt button__icon"></i>
             </a>
@@ -249,10 +262,12 @@
       </div>
       <!-- add arrows -->
       <div class="swiper-button-next">
-        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+        <i class="uil uil-angle-right-b swiper-portfolio-icon" data-aos="fade-left"
+        data-aos-duration="3000" data-aos-delay="500"></i>
       </div>
       <div class="swiper-button-prev">
-        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+        <i class="uil uil-angle-left-b swiper-portfolio-icon" data-aos="fade-right"
+        data-aos-duration="3000" data-aos-delay="500"></i>
       </div>
       <!-- add pagination -->
       <div class="swiper-pagination"></div>
@@ -261,6 +276,10 @@
   <script type="text/javascript" src="{{ asset('assets/swiper-bundle.min.js') }}"></script>
     <script src="https://kit.fontawesome.com/2205d59d52.js" crossorigin="anonymous"></script>
     <script src="{{ asset('assets/ptj.js') }}"></script>
+    <script src="{{ asset('https://unpkg.com/aos@2.3.1/dist/aos.js') }}"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
 @endsection
