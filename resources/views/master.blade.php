@@ -7,6 +7,7 @@
     <title>Portfolio | Andika Satrio N.</title>
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="assets/css/newcss.css" />
+    <link rel="website icon" href="assets/img/icon.png">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
 </head>
@@ -20,22 +21,22 @@
         <div class="nav__menu" id="nav-menu">
             <ul class="nav__list grid">
                 <li class="nav__item">
-                    <a href="/blog" class="nav__link active-link">
+                    <a href="/portfolioDk" class="nav__link active-link">
                     <i class="uil uil-estate nav__icon"></i>Home
                     </a>
                 </li>
                 <li class="nav__item">
-                    <a href="/blog#about" class="nav__link">
+                    <a href="/portfolioDk#about" class="nav__link">
                     <i class="uil uil-user nav__icon"></i>About
                     </a>
                 </li>
                 <li class="nav__item">
-                    <a href="/blog/projects" class="nav__link">
+                    <a href="/portfolioDk/projects" class="nav__link">
                     <i class="uil uil-scenery nav__icon"></i>Projects
                     </a>
                 </li>
                 <li class="nav__item">
-                    <a href="/blog/contact" class="nav__link">
+                    <a href="/portfolioDk/contact" class="nav__link">
                     <i class="uil uil-message nav__icon"></i>Contact-Me
                     </a>
                 </li>
@@ -78,13 +79,13 @@
 
             <ul class="footer__links">
                 <li>
-                    <a href="/blog/projects" class="footer__link">Qualification</a>
+                    <a href="/portfolioDk/projects" class="footer__link">Qualification</a>
                 </li>
                 <li>
-                    <a href="/blog/projects" class="footer__link">Portfolio</a>
+                    <a href="/portfolioDk/projects" class="footer__link">Portfolio</a>
                 </li>
                 <li>
-                    <a href="/blog/contact" class="footer__link">Contact-Me</a>
+                    <a href="/portfolioDk/" class="footer__link">Contact-Me</a>
                 </li>
             </ul>
 

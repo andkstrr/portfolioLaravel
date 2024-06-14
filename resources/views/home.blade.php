@@ -88,7 +88,7 @@
               An informatics student at
               <strong>Wiyata Krida Manggala</strong>, Bogor.
             </p>
-            <a href="/blog/contact" class="button button--flex" data-aos="fade-zoom-in"
+            <a href="/portfolioDk/contact" class="button button--flex" data-aos="fade-zoom-in"
             data-aos-easing="ease-in-back"
             data-aos-duration="3000"
             data-aos-delay="300"
