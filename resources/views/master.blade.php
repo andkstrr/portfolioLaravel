@@ -17,7 +17,7 @@
 
 <header class="header" id="header">
     <nav class="nav container">
-        <a href="/blog" class="nav__logo">ðk</a>
+        <a href="/portfolioDk" class="nav__logo">ðk</a>
         <div class="nav__menu" id="nav-menu">
             <ul class="nav__list grid">
                 <li class="nav__item">
