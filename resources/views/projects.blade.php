@@ -159,6 +159,33 @@
 
     <div class="portfolio__container container swiper-container" >
       <div class="swiper-wrapper">
+        <!-- ------------------------portfolio-------------------- -->
+        <div class="portfolio__content grid swiper-slide">
+          <img src="{{ asset('assets/img/portfolio.png') }}" class="portfolio__img" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="900" style="margin-bottom: 20px; height: 270px"/>
+
+          <div class="portfolio__data">
+            <h3 class="portfolio__title" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="1200">Portfolio using Laravel</h3>
+            <p class="portfolio__description" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="1400">
+              This portfolio website was created using the Laravel framework to display information about myself, my educational background and work experience, the projects I have worked on, and provide a way to contact me. The responsive and user-friendly design ensures that visitors can easily navigate and get the information they need.
+            </p>
+            <a href="https://github.com/andkstrr/portfolioLaravel" class="button button--flex button--small portfolio__button" data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-duration="3000"
+            data-aos-delay="1950"
+            data-aos-offset="0">
+              GitHub Repository
+              <i class="uil uil-external-link-alt button__icon"></i>
+            </a>
+            <a href="https://andkstrr.000webhostapp.com/portfolioDk" target="__blank" class="button button--flex button--small portfolio__button" data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-duration="3000"
+            data-aos-delay="1950"
+            data-aos-offset="0">
+              See Live
+              <i class="uil uil-external-link-alt button__icon"></i>
+            </a>
+          </div>
+        </div>
         <!-- ------------------------portfolio 1-------------------- -->
         <div class="portfolio__content grid swiper-slide">
           <img src="{{ asset('assets/img/portfolio1.png') }}" class="portfolio__img" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="900""/>
@@ -180,7 +207,7 @@
             data-aos-easing="ease-in-back"
             data-aos-duration="3000"
             data-aos-delay="1950"
-            data-aos-offset="0">>
+            data-aos-offset="0">
               See Live
               <i class="uil uil-external-link-alt button__icon"></i>
             </a>
