@@ -7,7 +7,7 @@
     <title>Portfolio | Andika Satrio N.</title>
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="assets/css/newcss.css" />
-    <link rel="website icon" href="assets/img/icon.png"> 
+    <link rel="website icon" href="{{ asset('assets/img/icon.png') }}">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
 </head>
@@ -79,13 +79,13 @@
 
             <ul class="footer__links">
                 <li>
-                    <a href="/portfolioDk/projects" class="footer__link">Qualification</a>
+                    <a href="/portfolioDk/projects" class="footer__link">Services</a>
                 </li>
                 <li>
                     <a href="/portfolioDk/projects" class="footer__link">Portfolio</a>
                 </li>
                 <li>
-                    <a href="/portfolioDk/" class="footer__link">Contact-Me</a>
+                    <a href="/portfolioDk/contact" class="footer__link">Contact-Me</a>
                 </li>
             </ul>
 
@@ -99,11 +99,11 @@
                 </a>
 
                 <a
-                    href="https://twitter.com/"
+                    href="https://www.linkedin.com/in/andika-satrio-nurcahyo/"
                     target="__blank"
                     class="footer__social"
                 >
-                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
                 </a>
             </div>
         </div>

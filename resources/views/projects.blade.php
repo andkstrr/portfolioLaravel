@@ -47,7 +47,7 @@
                             </li>
                             <li class="services__modal-service">
                                 <i class="uil uil-check-circle services__modal-icon"></i>
-                                <p>Web page development</p>
+                                <p>I position your company brand</p>
                             </li>
                             <li class="services__modal-service">
                                 <i class="uil uil-check-circle services__modal-icon"></i>
@@ -55,7 +55,7 @@
                             </li>
                             <li class="services__modal-service">
                                 <i class="uil uil-check-circle services__modal-icon"></i>
-                                <p>I position your company brand</p>
+                                <p>I design and develop web pages</p>
                             </li>
                         </ul>
                     </div>
@@ -79,23 +79,23 @@
                       <ul class="services__modal-services grid">
                           <li class="services__modal-service">
                               <i class="uil uil-check-circle services__modal-icon"></i>
-                              <p>I develop user interface</p>
+                              <p>I develop interactive user interfaces</p>
                           </li>
                           <li class="services__modal-service">
                               <i class="uil uil-check-circle services__modal-icon"></i>
-                              <p>I create UX element interactions</p>
+                              <p>I create responsive web designs</p>
                           </li>
                           <li class="services__modal-service">
                               <i class="uil uil-check-circle services__modal-icon"></i>
-                              <p>Web page development</p>
+                              <p>I optimize web performance</p>
                           </li>
                           <li class="services__modal-service">
                               <i class="uil uil-check-circle services__modal-icon"></i>
-                              <p>I develop user interface</p>
+                              <p>I integrate front-end with backend services</p>
                           </li>
                           <li class="services__modal-service">
                               <i class="uil uil-check-circle services__modal-icon"></i>
-                              <p>I position your company brand</p>
+                              <p>I ensure cross-browser compatibility</p>
                           </li>
                       </ul>
                   </div>
@@ -120,23 +120,23 @@
                     <ul class="services__modal-services grid">
                         <li class="services__modal-service">
                             <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p>I develop user interface</p>
+                            <p>I analyze and interpret complex data</p>
                         </li>
                         <li class="services__modal-service">
                             <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p>I create UX element interactions</p>
+                            <p>I develop machine learning models</p>
                         </li>
                         <li class="services__modal-service">
                             <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p>Web page development</p>
+                            <p>I visualize data insights</p>
                         </li>
                         <li class="services__modal-service">
                             <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p>I develop user interface</p>
+                            <p>I optimize data-driven decision-making</p>
                         </li>
                         <li class="services__modal-service">
                             <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p>I position your company brand</p>
+                            <p>I ensure data integrity and quality</p>
                         </li>
                     </ul>
                 </div>
