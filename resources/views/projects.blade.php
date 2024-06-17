@@ -12,10 +12,12 @@
   <link rel="stylesheet" href="{{ asset('assets/css/newcss.css') }}" />
   <link rel="website icon" href="{{ asset('assets/img/icon.png') }}">
   <link href="{{ asset('https://unpkg.com/aos@2.3.1/dist/aos.css') }}" rel="stylesheet"> 
-  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"/>
 </head>
 <body oncontextmenu="return false">
-  <!--=================== Services ====================-->
+
+{{--=================== Section Services ====================--}}
+
   <section class="services section" id="services">
     <h2 class="section__title" style="margin-top: 50px;" data-aos="fade-up"
     data-aos-duration="2000">Services</h2>
@@ -145,9 +147,10 @@
     </div>
 
     </div>
-</section>
+  </section>
 
-  <!--=================== Portfolio ===================-->
+{{--=================== Section Portfolio ===================--}}
+
   <section class="portfolio section" id="portfolio">
     <h2 class="section__title" data-aos="fade-up"
     data-aos-duration="2500">Projects</h2>
@@ -273,15 +276,17 @@
       <div class="swiper-pagination"></div>
     </div>
   </section>
-  <script type="text/javascript" src="{{ asset('assets/swiper-bundle.min.js') }}"></script>
-    <script src="https://kit.fontawesome.com/2205d59d52.js" crossorigin="anonymous"></script>
-    <script src="{{ asset('assets/ptj.js') }}"></script>
-    <script src="{{ asset('https://unpkg.com/aos@2.3.1/dist/aos.js') }}"></script>
-    <script>
-        AOS.init();
-    </script>
+
+<script type="text/javascript" src="{{ asset('assets/swiper-bundle.min.js') }}"></script>
+<script src="https://kit.fontawesome.com/2205d59d52.js" crossorigin="anonymous"></script>
+<script src="{{ asset('assets/ptj.js') }}"></script>
+<script src="{{ asset('https://unpkg.com/aos@2.3.1/dist/aos.js') }}"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
+
 @endsection
 
 

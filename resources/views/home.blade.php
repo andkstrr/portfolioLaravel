@@ -4,23 +4,21 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio | Andika Satrio N.</title>
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="assets/css/newcss.css" />
-    <link rel="website icon" href="{{ asset('assets/img/icon.png') }}">
-    <link
-        rel="stylesheet"
-        href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
-    />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Andika Satrio N.</title>
+  <link rel="stylesheet" href="{{ asset('assets/css/swiper-bundle.min.css') }}" />
+  <link rel="stylesheet" href="{{ asset('assets/css/newcss.css') }}" />
+  <link rel="website icon" href="{{ asset('assets/img/icon.png') }}">
+  <link href="{{ asset('https://unpkg.com/aos@2.3.1/dist/aos.css') }}" rel="stylesheet">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"/>
 </head>
-  <!-- main-->
-  <body oncontextmenu="return false">
+<body oncontextmenu="return false">
+
   <main class="main">
 
-    <!--========================= Home =====================-->
+{{--========================= Section Home =====================--}}
 
     <section class="home section" id="home">
       <div class="home__container container grid">
@@ -111,9 +109,9 @@
           </a>
         </div>
       </div>
-    </section>
+    </section> 
 
-    <!--======================= About========================-->
+{{--======================= Section About ========================--}}
 
     <section class="about section" id="about">
       <h2 class="section__title" data-aos="fade-up" data-aos-duration="3000">About Me</h2>
@@ -159,8 +157,17 @@
         </div>
       </div>
     </section>
-  </main>
-  </body>
-  </html>
-  @endsection
-    
+
+    </main>
+
+<script type="text/javascript" src="{{ asset('assets/swiper-bundle.min.js') }}"></script>
+<script src="https://kit.fontawesome.com/2205d59d52.js" crossorigin="anonymous"></script>
+<script src="{{ asset('assets/ptj.js') }}"></script>
+<script src="{{ asset('https://unpkg.com/aos@2.3.1/dist/aos.js') }}"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
+
+@endsection  
