@@ -161,7 +161,7 @@
       <div class="swiper-wrapper">
         <!-- ------------------------portfolio-------------------- -->
         <div class="portfolio__content grid swiper-slide">
-          <img src="{{ asset('assets/img/portfolio.png') }}" class="portfolio__img" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="900" style="margin-bottom: 20px; height: 270px"/>
+          <img src="{{ asset('assets/img/portfolio.png') }}" class="portfolio__img" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="900" style="margin-bottom: 10px; height: 270px"/>
 
           <div class="portfolio__data">
             <h3 class="portfolio__title" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="1200">Portfolio using Laravel</h3>
